@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(253, 253, 252);
+    width: 100%;
+    top: 0;
+}
+nav{
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavTitle{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+.navigation li{
+    padding: 5px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+.a{
+    color: black;
+    text-decoration: none;
+}
+.navigation li:hover{
+    
+    border-bottom: 1px solid black;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col1 h3{
+    text-align: center;
+    margin-top: 100px;
+}
+.col1 p{
+    text-align: center;
+    margin-top: 30px;
+}
+.img1{
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 250px;
+
+}
+.img2{
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 10px;
+    
+
+}
+.img3{
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    margin-right: 300px;
+    
+}
+.col2{
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+}
+.col2 .p1{
+    margin-top: 70px;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+.col2 .p2{
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+.col2 .p3{
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+
+.col2 h6{
+    margin-left: 1200px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-right: 400px;
+}
+footer{
+    min-height: 30vh;
+    background-color: #000;
+    color: #fff
+}
+.black{
+    width:80% ;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.footerhead{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    font-size: 15px;
+    margin-left: 50px;
+    
+}
+.footerhead h6{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.icon1{
+    font-size: 10px;
+}
+.form .email{
+    height: 30px;
+    margin-top: 5px;
+}
+.form .sub{
+    margin-top: 20px;
+}
