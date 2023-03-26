@@ -20,7 +20,7 @@ nav{
 }
 .NavTitle{
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 .navigation{
@@ -49,6 +49,13 @@ nav{
     
     border-bottom: 1px solid black;
 }
+.offcanvas-header{
+    margin-left: 350px;
+}
+.offcanvas-body{
+    margin-top: 200px;
+    margin-left: 40px;
+}
 
 .row{
     width: 100%;
@@ -68,25 +75,25 @@ nav{
     margin-top: 30px;
 }
 .img1{
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     margin-top: 60px;
-    margin-left: 250px;
+  margin-left: 270px;
 
 }
 .img2{
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     margin-top: 60px;
-    margin-left: 10px;
+   
     
 
 }
 .img3{
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     margin-top: 60px;
-    margin-right: 300px;
+  margin-left: -145px;
     
 }
 .col2{
@@ -112,10 +119,10 @@ margin-top: 50px;
 }
 
 .col2 h6{
-    margin-left: 1200px;
+    margin-left: 900px;
     margin-top: 30px;
     font-size: 25px;
-    margin-right: 400px;
+    margin-right: 410px;
 }
 footer{
     min-height: 30vh;
@@ -134,12 +141,15 @@ footer{
     gap: 30px;
     justify-content: space-evenly;
     font-size: 15px;
-    margin-left: 50px;
+   
     
 }
 .footerhead h6{
     margin-top: 50px;
     font-size: 20px;
+}
+.link1{
+    color: white;
 }
 .icon1{
     font-size: 10px;

@@ -21,7 +21,21 @@
                 <li><a class="a" href="insights.html">INSIGHTS</a></li>
                 <li><a class="a" href="contact.html">CONTACT</a></li>
                 <li><a class="a" href="store.html">STORE</a></li>
-                <li> <i class="bi bi-bag"></i> <a class="a" href="shopping.html">SHOPPING BAG(0)</a></li>
+                <li> <i class="bi bi-bag"></i> <a class="a" type="button" href="#"
+                    data-bs-toggle="offcanvas"
+                       data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">SHOPPING BAG(0) </a>
+
+                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                       aria-labelledby="offcanvasRightLabel">
+                       <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                       <div class="offcanvas-body">
+                           <h4>
+                           Shopping bag is empty</h4>
+                       </div>
+                   </div>
+               </li>
             </ul>
         </nav>
         </div>
@@ -69,7 +83,7 @@
                 </div>
                 <div>
                     <h6>FAQ</h6>
-                    <a href="">Shipping & Return policy</a>
+                    <a class="link1" href="policy.html">Shipping & Return policy</a>
                 </div>
                 <div>
                     <h6>Subscribe to our newslette</h6>
@@ -87,12 +101,13 @@
                     </form>
                     </div>
                 </div>
-                <div iconss>
-                    <i class="bi bi-twitter icon2"></i>
-                    <i class="bi bi-facebook icon2"></i>
-                    <i class="bi bi-instagram icon2"></i>
-                   </div>
+                
                </div> 
+               <div iconss>
+                <i class="bi bi-twitter icon2"></i>
+                <i class="bi bi-facebook icon2"></i>
+                <i class="bi bi-instagram icon2"></i>
+               </div>
         </div>
     </footer>
 

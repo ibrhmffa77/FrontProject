@@ -31,6 +31,7 @@ nav{
     margin-top: 30px;
 
 }
+
 .navigation li{
     padding: 5px 0;
     display: flex;
@@ -48,35 +49,27 @@ nav{
     
     border-bottom: 1px solid black;
 }
-.offcanvas-header{
-    margin-left: 350px;
+.text{
+    text-align: center;
+    margin-top: 150px;
+   font-size: 20px;
 }
-.offcanvas-body{
-    margin-top: 200px;
-    margin-left: 40px;
+.text .h3{
+    margin-top: 70px;
+}
+.text p{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+ 
 }
 
-.countainer{
-    width: 100%;
-}
-.row .col-4{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-   
-}
-.col-4{
-    margin-left: 100px;
-    
-}
- 
 footer{
     min-height: 30vh;
     background-color: #000;
     color: #fff
 }
-.footer_box{
+.black{
     width:80% ;
     height: 100%;
     margin: 0 auto;
@@ -88,26 +81,24 @@ footer{
     gap: 30px;
     justify-content: space-evenly;
     font-size: 15px;
-    
+   margin-top: 100px;
     
 }
-footer h6{
+.footerhead h6{
     margin-top: 50px;
     font-size: 20px;
 }
 .link1{
     color: white;
 }
- .footerhead .icon2{
+.icon1{
     font-size: 10px;
-    margin-top: 40px;
+   
 }
 .form .email{
-    
-    margin-top: 10px;
+    height: 30px;
+    margin-top: 5px;
 }
 .form .sub{
-    margin-top: 15px;
-    
+    margin-top: 20px;
 }
-

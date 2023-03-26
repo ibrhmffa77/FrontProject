@@ -20,7 +20,7 @@ nav{
 }
 .NavTitle{
    font-size: 30px;
-   margin-top: 30px;
+   margin-top: 20px;
 
 }
 .navigation{
@@ -48,7 +48,13 @@ nav{
    
    border-bottom: 1px solid black;
 }
-
+.offcanvas-header{
+   margin-left: 350px;
+}
+.offcanvas-body{
+   margin-top: 200px;
+   margin-left: 40px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +69,7 @@ nav{
     margin-top: 20px;
   }
   .column {
-    margin-left: 300px;
+    margin-left: 150px;
     margin-top: -30px;
    gap: 20px;
     
@@ -133,12 +139,14 @@ nav{
     gap: 30px;
     justify-content: space-evenly;
     font-size: 15px;
-    margin-left: 50px;
-    
+   
 }
 .footerhead h6{
     margin-top: 50px;
     font-size: 20px;
+}
+.link1{
+   color: white;
 }
 .icon1{
     font-size: 10px;
